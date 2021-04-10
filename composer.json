@@ -1,0 +1,15 @@
+{
+    "name": "pejmankheyri/whmcs-custom-configs",
+    "description": "custom config features for host or server",
+    "keywords": ["whmcs", "module", "cpanel", "reset host", "addon", "custom configs"],
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "pejmankheyri",
+            "email": "pejmankheyri@gmail.com"
+        }
+    ],
+    "require": {
+        
+    }
+}
