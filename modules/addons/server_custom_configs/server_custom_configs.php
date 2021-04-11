@@ -15,7 +15,7 @@ use Illuminate\Database\Capsule\Manager as Capsule;
 function server_custom_configs_config() {
 	$configarray = array(
 		'name' => 'Server Custom Configs', 
-		'version' => '1.0', 
+		'version' => '1.0.1', 
 		'author' => 'pejman kheyri', 
 		'description' => 'Server Custom Configs Like Reset Hosts', 
 		'language' => 'farsi',  		
