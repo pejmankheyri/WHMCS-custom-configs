@@ -10,36 +10,35 @@
 </p>
 <div dir="rtl">
 
-# ماژول تغییرات در تنظیمات سرور سیستم WHMCS
+# WHMCS module for change system server settings
 
- یک افزونه کاربردی برای سیستم مدیریت هاستینگ WHMCS می باشد که کاربران را قادر می سازد تا ازطریق پنل خود روی تنظیمات سرور یا هاست خود تغییرات اعمال کنند
+A useful plugin for the WHMCS hosting management system that enables users to make changes to their server or host settings through their panel
+  
+## Installation
 
-## نصب
+* Copy the files of the `WHMCS-custom-configs` folder to the main WHMCS project path.
+* Activate the plugin through the `Plugins` menu.
+* [Make plugin settings.](https://github.com/pejmankheyri/WHMCS-custom-configs#%D8%AA%D9%86%D8%B8%DB%8C%D9%85%D8%A7%D8%AA)
 
-* محتویات پوشه `WHMCS-custom-configs` را در مسیر اصلی پروژه WHMCS کپی کنید.
-* افزونه را از طریق منوی `افزونه ها` فعال کنید.
-* [تنظیمات افزونه را انجام دهید.](https://github.com/pejmankheyri/WHMCS-custom-configs#%D8%AA%D9%86%D8%B8%DB%8C%D9%85%D8%A7%D8%AA)
+## Features
 
-## امکانات
+* Ability to reset Linux hosts through the user panel
+* Apply changes through the internal web service of the WHMCS system
+* Send a welcome email after the resets
+* Log of all user activities by the module
+* Set the number of logs needed in the system to be saved
+* View logs and manage it
 
-* قابلیت ریست کردن هاست های لینوکسی از طریق پنل کاربری
-* اعمال تغییرات از طریق وب سرویس داخلی سیستم WHMCS
-* ارسال ایمیل خوش آمدگویی بعد از ریست هاست
-* ثبت لاگ از تمامی فعالیت های کاربر توسط ماژول
-* تنظیم تعداد لاگ هایی که در سیستم نیاز است تا ذخیره شوند
-* نمایش لاگ ها و مدیریت آن
+## Settings
 
-## تنظیمات
+* Enter your whm ID along with the time it takes to save the log
+  
+## Contributing
 
-* شناسه whm خود را در به همراه مدت زمانی که نیاز است تا لاگ ذخیره شود را وارد نمایید
-
-## کمک به توسعه
-
-از Pull request ها استقبال می کنیم.
-
-برای تغییرات عمده ، لطفاً ابتدا یک issue را باز کنید تا در مورد آنچه می خواهید تغییر دهیم و بحث کنیم.
-
-## لایسنس
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Please make sure to update tests as appropriate.
+  
+## License
 
 GPL-3.0
 
